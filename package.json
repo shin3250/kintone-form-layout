@@ -1,0 +1,40 @@
+{
+    "name": "kintone-form-layout",
+    "version": "1.0.0",
+    "description": "Get/Set kintone form layout",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint src/**/*.js",
+        "fix": "eslint src/**/*.js --fix",
+        "clean": "rimraf dist",
+        "init": "node ./src/init.js",
+        "get": "node ./src/get.js",
+        "set": "node ./src/set.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shin3250/kintone-form-layout.git"
+    },
+    "keywords": [
+        "kintone",
+        "kintone-api",
+        "nodejs"
+    ],
+    "author": "shin3250",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shin3250/kintone-form-layout/issues"
+    },
+    "homepage": "https://github.com/shin3250/kintone-form-layout#readme",
+    "devDependencies": {
+        "@cybozu/eslint-config": "11.0.0",
+        "@kintone/rest-api-client": "1.5.2",
+        "eslint": "7.9.0",
+        "prettier": "2.1.2",
+        "readline-sync": "1.4.10",
+        "request": "2.88.2",
+        "request-promise": "4.2.6",
+        "rimraf": "3.0.2",
+        "typescript": "3.9.7"
+    }
+}
